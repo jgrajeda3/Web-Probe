@@ -13,6 +13,11 @@
 
 package prov.interfaces.globalView;
 
+/**
+ * 
+ * @author joshuagrajeda
+ *
+ */
 
 public class PROVJustificationTreeBuilder
 {
