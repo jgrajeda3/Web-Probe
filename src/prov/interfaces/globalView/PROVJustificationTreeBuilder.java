@@ -34,7 +34,9 @@ public class PROVJustificationTreeBuilder
 	{
 		String uri = "http://www.w3.org/2006/03/wn/wn20/rdf/wordnet-sameverbgroupas.rdf";
 		String treeJSON = getJustificationTree(uri);
+		System.out.println("This is a test");
 		System.out.println( treeJSON );
+		System.out.println("This is a test");
 		
 	}
 }
