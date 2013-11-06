@@ -35,9 +35,9 @@ public class PROVJustificationTreeBuilder
 		String uri = "http://www.w3.org/2006/03/wn/wn20/rdf/wordnet-sameverbgroupas.rdf";
 		//http://rio.cs.utep.edu/ciserver/ciprojects/GravityMapProvenance/gravityContourMap.ps_038568341971146025.owl#answer
 		String treeJSON = getJustificationTree(uri);
-		System.out.println("This is a test");
+		//System.out.println("This is a test");
 		System.out.println( treeJSON );
-		System.out.println("This is a test");
+		//System.out.println("This is a test");
 		
 	}
 }

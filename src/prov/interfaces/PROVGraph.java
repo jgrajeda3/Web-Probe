@@ -341,7 +341,7 @@ public class PROVGraph
 	{
 		//WPJustificationTree tree = new WPJustificationTree(\"http://rio.cs.utep.edu/ciserver/ciprojects/GravityMapProvenance/gravityContourMap.ps_038568341971146025.owl#answer\");
 		PROVGraph test = new PROVGraph();
-		System.out.println( test.getGraph("https://raw.github.com/hdporras/Web-Probe/master/primer-turtle-examples.ttl") );
+		System.out.println( test.getGraph("http://www.w3.org/TeamSubmission/turtle/example3.ttl") );
 
 
 		System.out.println();
