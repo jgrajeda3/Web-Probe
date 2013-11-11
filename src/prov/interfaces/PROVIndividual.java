@@ -87,7 +87,7 @@ public class PROVIndividual
 	}
 	
 //Activities
-	/** Gather information about all Activities. Indivisduals are placed in a HashMap (individualsHM: Key=URI, value = PROVIndividual) */
+	/** Gather information about all Activities. Individuals are placed in a HashMap (individualsHM: Key=URI, value = PROVIndividual) */
 	public void addActivity(OWLNamedIndividual ind)
 	{
 		//Add list of Object Property values associated with ind.

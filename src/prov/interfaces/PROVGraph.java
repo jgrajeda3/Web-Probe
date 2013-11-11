@@ -108,6 +108,7 @@ public class PROVGraph
 		catch (OWLOntologyCreationException e) {
 			e.printStackTrace();
 		}
+		System.out.println("It reached here");
 
 		//convert Java object of Graph to JSON
 		return toJSON();
@@ -327,11 +328,11 @@ public class PROVGraph
 		}
 
 		//remove last comma
-		links = links.substring(0, links.length() - 1);
+		links = links.substring(0, links.length());
 
 		//put nodes and links together
 		json += nodes + "], \"links\":[ " + links + "]";
-
+		
 		return "{ "+ json +" }";
 
 	}
@@ -341,8 +342,7 @@ public class PROVGraph
 	{
 		//WPJustificationTree tree = new WPJustificationTree(\"http://rio.cs.utep.edu/ciserver/ciprojects/GravityMapProvenance/gravityContourMap.ps_038568341971146025.owl#answer\");
 		PROVGraph test = new PROVGraph();
-		System.out.println( test.getGraph("http://www.w3.org/TeamSubmission/turtle/example3.ttl") );
-
+		System.out.println( test.getGraph("https://dvcs.w3.org/hg/prov/raw-file/tip/bestpractices/examples/ontology-extensions/workflow/workflowDefinition.ttl") );
 
 		System.out.println();
 		System.out.println("----JSON----");
